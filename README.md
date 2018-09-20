@@ -1,7 +1,5 @@
-# FakeOrNot
+# Project - FakeOrNot
 An AI powered online content analysis tool
-
-# Project - FakeOrNot : An AI powered online content analysis tool
 
 ## Team - Sigmoid
 - Gyanesh (gggg)
@@ -12,7 +10,7 @@ An AI powered online content analysis tool
 
 ## Project Modules
 * User, ..... - [Gyanesh]
-* Auth, Store Rest API   deployment - [fff]
+* Auth, Store Rest API   deployment - [Gyanesh]
 * N-tier Rest API in Spring Boot with Serverless ECS Cluster deployment - [Manoj]
 * Chrome Add-On App - [Yamini]
 * Alexa Voice Interface - [Manoj]
