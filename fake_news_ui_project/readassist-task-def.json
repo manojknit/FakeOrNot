@@ -1,0 +1,23 @@
+{
+  "family": "readassist",
+  "containerDefinitions": [
+      {
+          "name": "readassist",
+          "image": "494875521123.dkr.ecr.us-east-1.amazonaws.com/readassist",
+          "cpu": 10,
+          "memory": 500,
+          "portMappings": [
+              {
+                  "containerPort": 5000,
+                  "hostPort": 80
+              }
+          ],
+          "entryPoint": [
+              "/usr/sbin/apache2",
+              "-D",
+              "FOREGROUND"
+          ],
+          "essential": true
+      }
+  ]
+}
