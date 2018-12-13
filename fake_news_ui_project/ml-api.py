@@ -135,18 +135,20 @@ def fakeness():
     test_corpus = []
     test_corpus.append(new_review)
     # Load Bag of Words model
-    load_model = pickle.load(open('pickle/liar_liar_fact_check_factor_model.sav', 'rb'))
+    load_model = pickle.load(open('pickle/liar_model_gp.pkl', 'rb'))
     prediction = load_model.predict(test_corpus)
     prob = load_model.predict_proba(test_corpus)
     #load_model.decision_function(test_corpus)
     
-    classarr = load_model.classes_
-    sumi = 0
-    for i in range(len(classarr)):
-        if "true" not in classarr[i].lower() or classarr[i].lower() == 'barely-true':
-            sumi = sumi + prob[0][i]
+    #classarr = load_model.classes_
+    #sumi = 0
+    #for i in range(len(classarr)):
+    #    if "true" not in classarr[i].lower() or classarr[i].lower() == 'barely-true':
+    #        sumi = sumi + prob[0][i]
 
-    retout = str(prediction[0]) + "~" + str(round(sumi, 2))
+    #retout = str(prediction[0]) + "~" + str(round(sumi, 2))
+    
+    retout = str(prediction[0]) + "~" + str(round(prob[0][0], 2))
     return (retout)
  
 @app.route('/liarliar/<news>')

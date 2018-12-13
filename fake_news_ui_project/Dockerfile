@@ -1,8 +1,9 @@
-FROM ubuntu:16.04
+#FROM ubuntu:16.04
 #FROM amazon/aws-eb-python:3.4.2-onbuild-3.5.1
+FROM python:3
 
 RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev && \
+#    apt-get install -y python-pip python-dev && \
     pip install --upgrade pip
 
 # We copy just the requirements.txt first to leverage Docker cache
