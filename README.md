@@ -1,14 +1,6 @@
 # Project - FakeOrNot (Open Source)
 An AI powered online content analysis tool
 
-## Contributer - Sigmoid
-- Manoj Kumar (manojknit)
-- Gyanesh ()
-- Shalini (shalini)
-- Yamini ()
-- Madhu ()
-
-
 ## Architecture Diagrams
 
 ![Architecture Diagram](https://github.com/manojknit/FakeOrNot/raw/master/images/ArchitectureDiagrams_FakeOrNot2.png)
