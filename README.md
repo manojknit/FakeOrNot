@@ -1,30 +1,20 @@
-# Project - FakeOrNot
+# Project - FakeOrNot (Open Source)
 An AI powered online content analysis tool
 
-## Team - Sigmoid
-- Gyanesh (gggg)
+## Contributer - Sigmoid
 - Manoj Kumar (manojknit)
+- Gyanesh ()
 - Shalini (shalini)
-- Yamini (yy)
-- Madhu (y)
-
-## Project Modules
-* User, ..... - [Gyanesh]
-* Auth, Store Rest API   deployment - [Gyanesh]
-* N-tier Rest API in Spring Boot with Serverless ECS Cluster deployment - [Manoj]
-* Chrome Add-On App - [Yamini]
-* Alexa Voice Interface - [Manoj]
-* Android App Frontend - [Shalini]
+- Yamini ()
+- Madhu ()
 
 
 ## Architecture Diagrams
 
-### Overall system - Microservices approach [ccv]
-![System Architecture](https://github.com//blob/master/Diagrams/API_Architecture.png)
-### Rest APIs via Spring Boot & Nodejs  [fsf]
-![API Architecture](https://github.com/blob/master/Diagrams/Architecture.png)
-### Serverless ECS Cluster Deployment with docker [fasf]
-![Deployment Architecture](https://github.com/blob/master/Diagrams/Serverless_ECS_Cluster.png)
+![Architecture Diagram](https://github.com/manojknit/FakeOrNot/raw/master/images/ArchitectureDiagrams_FakeOrNot2.png)
+![Content Analysis Engine](https://github.com/manojknit/FakeOrNot/raw/master/images/ArchitectureDiagrams_FakeOrNotEngine.png)
+![CICD](https://github.com/manojknit/FakeOrNot/raw/master/images/CICD.png)
+![Technology Stack](https://github.com/manojknit/FakeOrNot/raw/master/images/Technology Stack.png)
 
 
 ## Links
