@@ -12,9 +12,12 @@ An AI powered online content analysis tool
 ## Architecture Diagrams
 
 ![Architecture Diagram](https://github.com/manojknit/FakeOrNot/raw/master/images/ArchitectureDiagrams_FakeOrNot2.png)
+
 ![Content Analysis Engine](https://github.com/manojknit/FakeOrNot/raw/master/images/ArchitectureDiagrams_FakeOrNotEngine.png)
+
 ![CICD](https://github.com/manojknit/FakeOrNot/raw/master/images/CICD.png)
-![Technology Stack](https://github.com/manojknit/FakeOrNot/raw/master/images/Technology Stack.png)
+
+![Technology Stack](https://github.com/manojknit/FakeOrNot/raw/master/images/Technology%20Stack.png)
 
 
 ## Links
